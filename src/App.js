@@ -7,12 +7,13 @@ import UseState from './hook/useState/UseState';
 import UseEffect from './hook/UseEffect';
 import UseReducer from './hook/useReducer/UseReducer';
 import UseReducer2 from './hook/useReducer/UseReducer2';
-import UseMemo from './hook/UseMemo';
+import UseMemo from './hook/useMemo/UseMemo';
 import UseCallback from './hook/UseCallback';
 import UseRef from './hook/UseRef';
 import CustomHook from './hook/CustomHook';
 import UseState2 from './hook/useState/useState2';
 import UseReducerTest1 from './hook/useReducer/useReducerTest1';
+import UseMemoTest1 from './hook/useMemo/UseMemoTest1';
 
 class App extends React.Component {
 	state = {
@@ -51,7 +52,7 @@ class App extends React.Component {
 				{/*{ this.state.visibility && <UseState2 /> }*/}
 				{/*<button onClick={this.handleVisibility}>show/hide</button>*/}
 
-				<UseReducerTest1 />
+				<UseMemoTest1 />
 			</div>
 		);
 	}
